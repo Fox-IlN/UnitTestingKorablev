@@ -14,7 +14,8 @@ public class Calculator{
     }
 
     double div(double a, double b){
+        if (b==0) throw new ArithmeticException(" ");
+        else
         return a/b;
     }
-
 }
