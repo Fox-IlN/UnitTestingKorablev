@@ -12,7 +12,6 @@ class QuadraticEquationTest {
         QuadraticEquation quadraticEquation = new QuadraticEquation(1, 17, -18);
         quadraticEquation.findRoots();
         assertArrayEquals(Equation, quadraticEquation.roots);
-        //assertEquals("1.0 -18.0", quadraticEquation.toString());
     }
 
     @Test
@@ -25,6 +24,7 @@ class QuadraticEquationTest {
 
     @Test
     void testNoRoots() {
-        assertEquals(null, new QuadraticEquation(5, 3, 4).findRoots());
+        double[] roots = new QuadraticEquation(5, 3, 4).findRoots();
+        assertEquals(null, roots);
     }
 }

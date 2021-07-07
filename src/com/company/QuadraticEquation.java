@@ -57,10 +57,4 @@ public class QuadraticEquation {
 
         return null;
     }
-
-    public String toString(){
-        String str = "";
-        str += Double.toString(roots[0])+" "+Double.toString(roots[1]);
-        return str;
-    }
 }

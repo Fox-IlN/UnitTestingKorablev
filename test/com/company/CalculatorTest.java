@@ -11,26 +11,31 @@ class CalculatorTest {
 
     @Test
     void sum() {
-        assertEquals(10, calculator.sum(4, 6));
+        double sum = calculator.sum(4, 6);
+        assertEquals(10, sum);
     }
 
     @Test
     void sub() {
-        assertEquals(10, calculator.sub(15, 5));
+        double sub = calculator.sub(15, 5);
+        assertEquals(10, sub);
     }
 
     @Test
     void mul() {
-        assertEquals(10, calculator.mul(10, 1));
+        double mul = calculator.mul(10, 1);
+        assertEquals(10, mul);
     }
 
     @Test
     void div() {
-        assertEquals(10, calculator.div(100, 10));
+        double div = calculator.div(100, 10);
+        assertEquals(10, div);
     }
 
     @Test
     void divZero() {
-        assertThrows(ArithmeticException.class, () -> {calculator.div(10, 0);});
+        assertThrows(ArithmeticException.class, () -> {
+            calculator.div(10, 0);});
     }
 }

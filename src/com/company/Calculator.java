@@ -14,8 +14,9 @@ public class Calculator{
     }
 
     double div(double a, double b){
-        if (b==0) throw new ArithmeticException(" ");
+        if (b==0)
+            throw new ArithmeticException("Аргумент делителя не может быть равен нулю");
         else
-        return a/b;
+            return a/b;
     }
 }
