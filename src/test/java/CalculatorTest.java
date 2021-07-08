@@ -1,6 +1,4 @@
-package company;
-
-import com.company.Calculator;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.opentest4j.AssertionFailedError;
 

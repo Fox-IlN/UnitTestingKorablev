@@ -1,6 +1,4 @@
-package company;
-
-import com.company.QuadraticEquation;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

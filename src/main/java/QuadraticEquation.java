@@ -1,5 +1,3 @@
-package com.company;
-
 public class QuadraticEquation {
 
     private double a,b,c;
